@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A341AA923EB67ED00C5A070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A341AA823EB67ED00C5A070 /* AppDelegate.swift */; };
+		8A341AAB23EB67ED00C5A070 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8A341AAA23EB67ED00C5A070 /* GameScene.sks */; };
+		8A341AAD23EB67ED00C5A070 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8A341AAC23EB67ED00C5A070 /* Actions.sks */; };
+		8A341AAF23EB67ED00C5A070 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A341AAE23EB67ED00C5A070 /* GameScene.swift */; };
+		8A341AB123EB67ED00C5A070 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A341AB023EB67ED00C5A070 /* GameViewController.swift */; };
+		8A341AB423EB67ED00C5A070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A341AB223EB67ED00C5A070 /* Main.storyboard */; };
+		8A341AB623EB67EE00C5A070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A341AB523EB67EE00C5A070 /* Assets.xcassets */; };
+		8A341AB923EB67EE00C5A070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A341AB723EB67EE00C5A070 /* LaunchScreen.storyboard */; };
+		8A341AC423EB67EE00C5A070 /* Pong_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A341AC323EB67EE00C5A070 /* Pong_PracticeTests.swift */; };
+		8A341ACF23EB67EE00C5A070 /* Pong_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A341ACE23EB67EE00C5A070 /* Pong_PracticeUITests.swift */; };
+		8A341ADD23EB7BE000C5A070 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A341ADC23EB7BE000C5A070 /* LLPIXEL3.ttf */; };
+		8A341ADF23EB843E00C5A070 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A341ADE23EB843E00C5A070 /* MenuVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A341AC023EB67EE00C5A070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A341A9D23EB67ED00C5A070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A341AA423EB67ED00C5A070;
+			remoteInfo = "Pong Practice";
+		};
+		8A341ACB23EB67EE00C5A070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A341A9D23EB67ED00C5A070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A341AA423EB67ED00C5A070;
+			remoteInfo = "Pong Practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A341AA523EB67ED00C5A070 /* Pong Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A341AA823EB67ED00C5A070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A341AAA23EB67ED00C5A070 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8A341AAC23EB67ED00C5A070 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		8A341AAE23EB67ED00C5A070 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8A341AB023EB67ED00C5A070 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8A341AB323EB67ED00C5A070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A341AB523EB67EE00C5A070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A341AB823EB67EE00C5A070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A341ABA23EB67EE00C5A070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A341ABF23EB67EE00C5A070 /* Pong PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A341AC323EB67EE00C5A070 /* Pong_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong_PracticeTests.swift; sourceTree = "<group>"; };
+		8A341AC523EB67EE00C5A070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A341ACA23EB67EE00C5A070 /* Pong PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A341ACE23EB67EE00C5A070 /* Pong_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong_PracticeUITests.swift; sourceTree = "<group>"; };
+		8A341AD023EB67EE00C5A070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A341ADC23EB7BE000C5A070 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
+		8A341ADE23EB843E00C5A070 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A341AA223EB67ED00C5A070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A341ABC23EB67EE00C5A070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A341AC723EB67EE00C5A070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A341A9C23EB67ED00C5A070 = {
+			isa = PBXGroup;
+			children = (
+				8A341AA723EB67ED00C5A070 /* Pong Practice */,
+				8A341AC223EB67EE00C5A070 /* Pong PracticeTests */,
+				8A341ACD23EB67EE00C5A070 /* Pong PracticeUITests */,
+				8A341AA623EB67ED00C5A070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A341AA623EB67ED00C5A070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A341AA523EB67ED00C5A070 /* Pong Practice.app */,
+				8A341ABF23EB67EE00C5A070 /* Pong PracticeTests.xctest */,
+				8A341ACA23EB67EE00C5A070 /* Pong PracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A341AA723EB67ED00C5A070 /* Pong Practice */ = {
+			isa = PBXGroup;
+			children = (
+				8A341ADC23EB7BE000C5A070 /* LLPIXEL3.ttf */,
+				8A341AA823EB67ED00C5A070 /* AppDelegate.swift */,
+				8A341AAA23EB67ED00C5A070 /* GameScene.sks */,
+				8A341AAC23EB67ED00C5A070 /* Actions.sks */,
+				8A341AAE23EB67ED00C5A070 /* GameScene.swift */,
+				8A341AB023EB67ED00C5A070 /* GameViewController.swift */,
+				8A341AB223EB67ED00C5A070 /* Main.storyboard */,
+				8A341ADE23EB843E00C5A070 /* MenuVC.swift */,
+				8A341AB523EB67EE00C5A070 /* Assets.xcassets */,
+				8A341AB723EB67EE00C5A070 /* LaunchScreen.storyboard */,
+				8A341ABA23EB67EE00C5A070 /* Info.plist */,
+			);
+			path = "Pong Practice";
+			sourceTree = "<group>";
+		};
+		8A341AC223EB67EE00C5A070 /* Pong PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A341AC323EB67EE00C5A070 /* Pong_PracticeTests.swift */,
+				8A341AC523EB67EE00C5A070 /* Info.plist */,
+			);
+			path = "Pong PracticeTests";
+			sourceTree = "<group>";
+		};
+		8A341ACD23EB67EE00C5A070 /* Pong PracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A341ACE23EB67EE00C5A070 /* Pong_PracticeUITests.swift */,
+				8A341AD023EB67EE00C5A070 /* Info.plist */,
+			);
+			path = "Pong PracticeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A341AA423EB67ED00C5A070 /* Pong Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A341AD323EB67EE00C5A070 /* Build configuration list for PBXNativeTarget "Pong Practice" */;
+			buildPhases = (
+				8A341AA123EB67ED00C5A070 /* Sources */,
+				8A341AA223EB67ED00C5A070 /* Frameworks */,
+				8A341AA323EB67ED00C5A070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pong Practice";
+			productName = "Pong Practice";
+			productReference = 8A341AA523EB67ED00C5A070 /* Pong Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A341ABE23EB67EE00C5A070 /* Pong PracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A341AD623EB67EE00C5A070 /* Build configuration list for PBXNativeTarget "Pong PracticeTests" */;
+			buildPhases = (
+				8A341ABB23EB67EE00C5A070 /* Sources */,
+				8A341ABC23EB67EE00C5A070 /* Frameworks */,
+				8A341ABD23EB67EE00C5A070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A341AC123EB67EE00C5A070 /* PBXTargetDependency */,
+			);
+			name = "Pong PracticeTests";
+			productName = "Pong PracticeTests";
+			productReference = 8A341ABF23EB67EE00C5A070 /* Pong PracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A341AC923EB67EE00C5A070 /* Pong PracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A341AD923EB67EE00C5A070 /* Build configuration list for PBXNativeTarget "Pong PracticeUITests" */;
+			buildPhases = (
+				8A341AC623EB67EE00C5A070 /* Sources */,
+				8A341AC723EB67EE00C5A070 /* Frameworks */,
+				8A341AC823EB67EE00C5A070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A341ACC23EB67EE00C5A070 /* PBXTargetDependency */,
+			);
+			name = "Pong PracticeUITests";
+			productName = "Pong PracticeUITests";
+			productReference = 8A341ACA23EB67EE00C5A070 /* Pong PracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A341A9D23EB67ED00C5A070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "William Pecho";
+				TargetAttributes = {
+					8A341AA423EB67ED00C5A070 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8A341ABE23EB67EE00C5A070 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8A341AA423EB67ED00C5A070;
+					};
+					8A341AC923EB67EE00C5A070 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8A341AA423EB67ED00C5A070;
+					};
+				};
+			};
+			buildConfigurationList = 8A341AA023EB67ED00C5A070 /* Build configuration list for PBXProject "Pong Practice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A341A9C23EB67ED00C5A070;
+			productRefGroup = 8A341AA623EB67ED00C5A070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A341AA423EB67ED00C5A070 /* Pong Practice */,
+				8A341ABE23EB67EE00C5A070 /* Pong PracticeTests */,
+				8A341AC923EB67EE00C5A070 /* Pong PracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A341AA323EB67ED00C5A070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A341AB423EB67ED00C5A070 /* Main.storyboard in Resources */,
+				8A341ADD23EB7BE000C5A070 /* LLPIXEL3.ttf in Resources */,
+				8A341AAB23EB67ED00C5A070 /* GameScene.sks in Resources */,
+				8A341AB623EB67EE00C5A070 /* Assets.xcassets in Resources */,
+				8A341AB923EB67EE00C5A070 /* LaunchScreen.storyboard in Resources */,
+				8A341AAD23EB67ED00C5A070 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A341ABD23EB67EE00C5A070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A341AC823EB67EE00C5A070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A341AA123EB67ED00C5A070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A341AAF23EB67ED00C5A070 /* GameScene.swift in Sources */,
+				8A341ADF23EB843E00C5A070 /* MenuVC.swift in Sources */,
+				8A341AB123EB67ED00C5A070 /* GameViewController.swift in Sources */,
+				8A341AA923EB67ED00C5A070 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A341ABB23EB67EE00C5A070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A341AC423EB67EE00C5A070 /* Pong_PracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A341AC623EB67EE00C5A070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A341ACF23EB67EE00C5A070 /* Pong_PracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A341AC123EB67EE00C5A070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A341AA423EB67ED00C5A070 /* Pong Practice */;
+			targetProxy = 8A341AC023EB67EE00C5A070 /* PBXContainerItemProxy */;
+		};
+		8A341ACC23EB67EE00C5A070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A341AA423EB67ED00C5A070 /* Pong Practice */;
+			targetProxy = 8A341ACB23EB67EE00C5A070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A341AB223EB67ED00C5A070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A341AB323EB67ED00C5A070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A341AB723EB67EE00C5A070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A341AB823EB67EE00C5A070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A341AD123EB67EE00C5A070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A341AD223EB67EE00C5A070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A341AD423EB67EE00C5A070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TLAR53355;
+				INFOPLIST_FILE = "Pong Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Pong-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A341AD523EB67EE00C5A070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TLAR53355;
+				INFOPLIST_FILE = "Pong Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Pong-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A341AD723EB67EE00C5A070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pong PracticeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Pong-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong Practice.app/Pong Practice";
+			};
+			name = Debug;
+		};
+		8A341AD823EB67EE00C5A070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pong PracticeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Pong-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong Practice.app/Pong Practice";
+			};
+			name = Release;
+		};
+		8A341ADA23EB67EE00C5A070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pong PracticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Pong-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pong Practice";
+			};
+			name = Debug;
+		};
+		8A341ADB23EB67EE00C5A070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pong PracticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Pong-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pong Practice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A341AA023EB67ED00C5A070 /* Build configuration list for PBXProject "Pong Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A341AD123EB67EE00C5A070 /* Debug */,
+				8A341AD223EB67EE00C5A070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A341AD323EB67EE00C5A070 /* Build configuration list for PBXNativeTarget "Pong Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A341AD423EB67EE00C5A070 /* Debug */,
+				8A341AD523EB67EE00C5A070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A341AD623EB67EE00C5A070 /* Build configuration list for PBXNativeTarget "Pong PracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A341AD723EB67EE00C5A070 /* Debug */,
+				8A341AD823EB67EE00C5A070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A341AD923EB67EE00C5A070 /* Build configuration list for PBXNativeTarget "Pong PracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A341ADA23EB67EE00C5A070 /* Debug */,
+				8A341ADB23EB67EE00C5A070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A341A9D23EB67ED00C5A070 /* Project object */;
+}
